@@ -1,2 +1,2 @@
 # alacritty-personal-configs
-My terminal best configuratoins.
+My terminal best configurations.
