@@ -1,0 +1,22 @@
+import = [
+	"~/.config/alacritty/themes/themes/ubuntu.toml"
+]
+
+[mouse]
+bindings = [
+	{ mouse = "Right", action = "Paste" },
+]
+
+[selection]
+save_to_clipboard = true
+
+[keyboard]
+bindings = [
+	{ key = "V", mods = "Control", action = "Paste" },
+        { key = "+", mods = "Control | Shift", action = "IncreaseFontSize" },
+        { key = "_", mods = "Control | Shift", action = "DecreaseFontSize" },
+	{ key = "T", mods = "Control", action = "CreateNewWindow" },
+]
+
+[window]
+opacity = 0.9
